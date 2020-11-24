@@ -8,6 +8,9 @@
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 body {
   font-family: var(--main-fond);
   font-style: var(--main-fond);
@@ -43,6 +46,7 @@ body {
   color: #000000;
 }
 .navigation-list-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -54,6 +58,7 @@ body {
   color: var(--accent-color);
 }
 .address-contact-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -143,6 +148,7 @@ body {
   color: var(--white-color);
 }
 .address-footer-link {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -157,12 +163,16 @@ ul > li.button-item {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  background: #e5e5e5;
 }
+
 .our-projects.button :hover,
 .our-projects.button:focus {
-  color: var(--accent-color);
+  background: #2196f3;
 }
 .projects-list-heder {
+  font-family: var(--main-fond);
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
