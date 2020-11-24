@@ -156,22 +156,40 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 /*=======about=====*/
-ul > li.button-item {
-  font-weight: 500;
+.button-item {
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.button {
+  font-family: var(--main-fond);
+  font-style: var(--main-fond);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   background: #e5e5e5;
+  color: #212121;
 }
 
-.our-projects.button :hover,
-.our-projects.button:focus {
+.button:hover,
+.button:focus,
+.button:active {
+  font-family: var(--main-fond);
+  font-style: var(--main-fond);
   background: #2196f3;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .projects-list-heder {
-  font-family: var(--main-fond);
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
