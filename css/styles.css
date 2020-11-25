@@ -74,6 +74,9 @@ body {
 }
 
 /*=========  main  =========*/
+section.hero {
+  background: #000000;
+}
 .hero-tittle {
   font-style: normal;
   font-weight: 900;
@@ -134,6 +137,9 @@ body {
   color: #757575;
 }
 /*========= footer =========*/
+footer {
+  background: #2f303a;
+}
 .address-adress {
   font-style: normal;
   font-weight: normal;
@@ -167,6 +173,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .button {
   font-family: var(--main-fond);
   font-style: var(--main-fond);
