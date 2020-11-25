@@ -57,6 +57,9 @@ body {
 .navigation-list-link:focus {
   color: var(--accent-color);
 }
+.navigation-list-link.is-current {
+  color: var(--accent-color);
+}
 .address-contact-link {
   font-style: normal;
   font-weight: 500;
@@ -177,8 +180,7 @@ body {
 }
 
 .button:hover,
-.button:focus,
-.button:active {
+.button:focus {
   font-family: var(--main-fond);
   font-style: var(--main-fond);
   background: #2196f3;
@@ -189,6 +191,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .projects-list-heder {
   font-style: normal;
   font-weight: bold;
