@@ -184,6 +184,7 @@ footer {
   letter-spacing: 0.03em;
   background: #e5e5e5;
   color: #212121;
+  border: none;
 }
 
 .button:hover,
@@ -197,6 +198,9 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.button.pointer {
+  cursor: pointer;
 }
 
 .projects-list-heder {
